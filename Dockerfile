@@ -3,7 +3,7 @@ FROM rocker/rstudio
 
 # LABEL about the custom image
 LABEL version="0.1"
-LABEL description="This image intends to install RServer, R and the package sedMicro and all its complicated dependencies"
+LABEL description="This image intends to install RServer, R and the package sdcMicro and all its complicated dependencies"
 
 # Update Ubuntu Software repository
 RUN apt-get update
